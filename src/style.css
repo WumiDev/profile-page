@@ -141,3 +141,29 @@ img.social-icon {
 #footer-text {
     align-self: center;
 }
+
+@media screen and (max-width: 650px) {
+    #avatar_share {
+        /* width: 88px;
+        height: 88px;
+        padding: 0px;
+        position: relative;
+        left: 200px;
+        border-radius: 275px; */
+        background: url("./images/avatar-share-btn_mobile.png") no-repeat center;
+    }
+
+    .socials-container {
+        margin-bottom: 30px;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+        row-gap: 12px;
+        align-items: flex-start;
+        margin-left: 5%;
+    }
+    #footer-text {
+            align-self:flex-start;
+    }
+}
