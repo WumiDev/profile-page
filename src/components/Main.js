@@ -1,10 +1,10 @@
 import React from 'react'
-import profileImg from "../images/wumi.jpg"
+// import profileImg from "../images/wumi.jpg"
 import slackIcon from "../images/slack-icon.png"
 import githubIcon from "../images/github-icon.png"
-import avatarShareBtn from "../images/avatar-share-btn.svg"
-import avatarShareBtn2 from "../images/avatar-share-btn_mobile.svg"
-import cameraImg from "../images/camera-icon.svg"
+// import avatarShareBtn from "../images/avatar-share-btn.svg"
+// import avatarShareBtn2 from "../images/avatar-share-btn_mobile.svg"
+// import cameraImg from "../images/camera-icon.svg"
 import "../style.css"
 
 export default function 
