@@ -4,12 +4,55 @@
     align-items: center;
 }
 
-#profile_img {
+/* #avatar_share, #avatar_share_mobile {
+    align-self: flex-end;
+    position: relative;
+    left: 150%;
+}  */
+
+/* #avatar_share_mobile {
+    display: none;
+}  */
+
+#avatar_share {
     width: 88px;
     height: 88px;
+    padding: 0px;
+    position: relative;
+    left: 200px;
     border-radius: 275px;
+    background: url("./images/avatar-share-btn.png") no-repeat center;
+    /* background-color: red; */
+}
 
-    /* background: url("../src/images/slack-icon.png"); */
+#avatar_share:hover {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; */
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(52, 64, 84, 0.75), rgba(52, 64, 84, 0.75)), url("./images/camera-icon.png") center 90% no-repeat, no-repeat center url("./images/wumi2.jpg");
+}
+
+#profile__img {
+    width: 88px;
+    height: 88px;
+    padding: 0px;
+    border-radius: 275px;
+    background: url("./images/wumi2.jpg") no-repeat center;
+}
+
+#profile__img:hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* filter: brightness(50%); */
+    background: linear-gradient(0deg, rgba(52, 64, 84, 0.75), rgba(52, 64, 84, 0.75)), url("./images/camera-icon.png") center 90% no-repeat, no-repeat center url("./images/wumi2.jpg");
+}
+
+#profile_image:focus {
+    border: 5.5px solid #EBE9FE;
 }
 
 a {
@@ -26,7 +69,7 @@ a {
     color: #101828;
 }
 
-#btn_twitter, #btn_zuri, #books, #book_python, #pitch, #book_design {
+#btn_twitter, #btn__zuri, #books, #book__python, #pitch, #book__design {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +94,7 @@ a {
 
 #slack {
     display: none;
-} 
+}
 
 img.social-icon {
     width: 24px;
@@ -62,6 +105,7 @@ img.social-icon {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .main-container {
@@ -77,6 +121,7 @@ img.social-icon {
     justify-content: center;
     padding: 0px 32px;
     gap: 32px;
+    margin-bottom: 10px;
 }
 
 .footer-container {
@@ -84,4 +129,9 @@ img.social-icon {
     justify-content: space-between;
     padding: 0px 32px;
     gap: 32px;
+    /* width: 90vw; */
+}
+
+#footer-text {
+    align-self: center;
 }
