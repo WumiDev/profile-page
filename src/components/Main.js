@@ -15,16 +15,17 @@ Main() {
         </header>
 
         <main className="main-container">
-            <a href="https://twitter.com/WumiDev" id="btn_twitter"><button>Twitter Link</button></a>
-            <a href="https://training.zuri.team/" id="btn_zuri"><button>Zuri Team</button></a>
-            <a href="https://books.zuri.team" id="books"><button>Zuri Books</button></a>
-            <a href="https://books.zuri.team/python-for-beginners?ref_id=wumidev" id="book_python"><button>Python Books</button></a>
-            <a href="https://background.zuri.team" id="pitch"><button>Background Check for Coders</button></a>
-            <a href="https://books.zuri.team/design-rules" id="book_design"><button>Design Books</button></a>
+            {/* <a href="https://twitter.com/WumiDev" id="btn_twitter"><button>Twitter Link</button></a> */}
+            <a href="https://twitter.com/WumiDev" id="btn_twitter">Twitter Link</a>
+            <a href="https://training.zuri.team/" id="btn_zuri">Zuri Team</a>
+            <a href="https://books.zuri.team" id="books">Zuri Books</a>
+            <a href="https://books.zuri.team/python-for-beginners?ref_id=wumidev" id="book_python">Python Books</a>
+            <a href="https://background.zuri.team" id="pitch">Background Check for Coders</a>
+            <a href="https://books.zuri.team/design-rules" id="book_design">Design Books</a>
 
             <div className="socials-container">
-                <img src={slackIcon} id="slack" alt="slack icon"/>
-                <a href="https://github.com/WumiDev"><img src={githubIcon} id="github" alt="github icon"/></a>
+                <img src={slackIcon} className="social-icon" alt="slack icon"/>
+                <a href="https://github.com/WumiDev"><img src={githubIcon} className="social-icon" alt="github icon"/></a>
             </div>
         </main>
     </section>

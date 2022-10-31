@@ -2,39 +2,67 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding: 0px 32px; */
-    /* gap: 32px; */
-
-    /* width: 1280px; */
-    /* height: 64px; */
 }
 
-img#profile_img {
-    /* border-radius: 50%; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px; */
-
+#profile_img {
     width: 88px;
     height: 88px;
-
-    /* background: url(.jpg); */
     border-radius: 275px;
+
+    /* background: url("../src/images/slack-icon.png"); */
+}
+
+a {
+    text-decoration: none;
+}
+
+#twitter {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #101828;
+}
+
+#btn_twitter, #btn_zuri, #books, #book_python, #pitch, #book_design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #101828;
+    background: #EAECF0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+
+    box-sizing: border-box;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    padding: 10px 20px;
+
+    width: 80vw;
+    height: auto;
+}
+
+#slack {
+    display: none;
+} 
+
+img.social-icon {
+    width: 24px;
+    height: 24px;
 }
 
 .header-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding: 0px 32px; */
-    /* gap: 32px; */
-
-    /* width: 1280px; */
-    /* height: 64px; */
 }
-
 
 .main-container {
     display: flex;
@@ -42,29 +70,18 @@ img#profile_img {
     align-items: center;
     padding: 0px 32px;
     gap: 20px;
-
-    /* width: 1280px; */
-    /* height: 64px; */
 }
 
 .socials-container {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     padding: 0px 32px;
     gap: 32px;
-
-    /* width: 1280px; */
-    /* height: 64px; */
 }
 
 .footer-container {
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-between;
     padding: 0px 32px;
     gap: 32px;
-
-    /* width: 1280px; */
-    /* height: 64px; */
 }
