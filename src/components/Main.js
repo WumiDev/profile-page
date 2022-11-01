@@ -1,10 +1,6 @@
 import React from 'react'
-// import profileImg from "../images/wumi.jpg"
 import slackIcon from "../images/slack-icon.png"
 import githubIcon from "../images/github-icon.png"
-// import avatarShareBtn from "../images/avatar-share-btn.svg"
-// import avatarShareBtn2 from "../images/avatar-share-btn_mobile.svg"
-// import cameraImg from "../images/camera-icon.svg"
 import "../style.css"
 
 export default function 
@@ -13,8 +9,6 @@ Main() {
     <section className="section-container">
         <header className="header-container">
         <div id="avatar_share"></div>
-        {/* <img src={avatarShareBtn} id="avatar_share" alt="avatar share btn"/>
-            <img src={avatarShareBtn2} id="avatar_share_mobile" alt="avatar share btn"/> */}
             <div id="profile__img"></div>
             <h3 id="twitter">WumiDev</h3>
             <p id="slack">WumiDev</p>

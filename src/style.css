@@ -14,14 +14,6 @@
     background: url("./images/avatar-share-btn.png") no-repeat center;
 }
 
-#avatar_share:hover {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center; */
-    cursor: pointer;
-    background: linear-gradient(0deg, rgba(52, 64, 84, 0.75), rgba(52, 64, 84, 0.75)), url("./images/camera-icon.png") center 90% no-repeat, no-repeat center url("./images/wumi2.jpg");
-}
 
 #profile__img {
     width: 88px;
@@ -36,7 +28,6 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    /* filter: brightness(50%); */
     background: linear-gradient(0deg, rgba(52, 64, 84, 0.75), rgba(52, 64, 84, 0.75)), url("./images/camera-icon.png") center 90% no-repeat, no-repeat center url("./images/wumi2.jpg");
 }
 
@@ -133,9 +124,7 @@ img.social-icon {
 .footer-container {
     display: flex;
     justify-content: space-around;
-    /* padding: 0px 32px; */
     gap: 32px;
-    /* width: 100vw; */
 }
 
 #footer-text {
@@ -144,12 +133,6 @@ img.social-icon {
 
 @media screen and (max-width: 650px) {
     #avatar_share {
-        /* width: 88px;
-        height: 88px;
-        padding: 0px;
-        position: relative;
-        left: 200px;
-        border-radius: 275px; */
         background: url("./images/avatar-share-btn_mobile.png") no-repeat center;
     }
 
