@@ -11,7 +11,7 @@ export default function Footer() {
     {/* </div> */}
     <footer className="footer-container">
         <img src={zuriLogo} alt="zuri-internship logo"/>
-        <span id="footer-text">HNG Internship 9 Ftrontend Task</span>
+        <span id="footer-text">HNG Internship 9 Frontend Task</span>
         <img src={i4gLogo} alt="i4g logo"/>
     </footer>
     </>
