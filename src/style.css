@@ -134,6 +134,13 @@ img.social-icon {
 
 #footer-text {
     align-self: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
 }
 
 @media screen and (max-width: 650px) {
@@ -152,6 +159,6 @@ img.social-icon {
         margin-left: 5%;
     }
     #footer-text {
-            align-self:flex-start;
+        align-self:flex-start;
     }
 }
