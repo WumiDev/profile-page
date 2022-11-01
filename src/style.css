@@ -49,7 +49,7 @@ a {
     color: #101828;
 }
 
-#btn_twitter, #btn__zuri, #books, #book__python, #pitch, #book__design {
+#btn__twitter, #btn__zuri, #books, #book__python, #pitch, #book__design {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +73,7 @@ a {
     height: auto;
 }
 
-#btn_twitter:hover, #btn__zuri:hover, #books:hover, #book__python:hover, #pitch:hover, #book__design:hover {
+#btn__twitter:hover, #btn__zuri:hover, #books:hover, #book__python:hover, #pitch:hover, #book__design:hover {
     gap: 12px;
     background: #D0D5DD;
     border: 1px solid #D0D5DD;
