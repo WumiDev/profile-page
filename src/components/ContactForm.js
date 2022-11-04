@@ -24,7 +24,7 @@ ContactForm() {
 
             <div className="form-control">
                 <label for="message">Message</label>
-                <input type="textarea" id="message" placeholder="Send me a message and I'll reply you as soon as possible..." />
+                <textarea id="message" name="message" placeholder="Send me a message and I'll reply you as soon as possible..." rows="4" cols="50"></textarea>
             </div>
 
             <div className="form-control">
