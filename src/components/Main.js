@@ -2,6 +2,7 @@ import React from 'react'
 import slackIcon from "../images/slack-icon.png"
 import githubIcon from "../images/github-icon.png"
 import "../style.css"
+import { Link } from 'react-router-dom'
 
 export default function 
 Main() {
@@ -21,6 +22,8 @@ Main() {
             <a href="https://books.zuri.team/python-for-beginners?ref_id=wumidev" id="book__python">Python Books</a>
             <a href="https://background.zuri.team" id="pitch">Background Check for Coders</a>
             <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
+            <a href="/contact" id="contact">Contact Me</a>
+            
 
             <div className="socials-container">
                 <img src={slackIcon} className="social-icon" alt="slack icon"/>
