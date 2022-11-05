@@ -2,7 +2,6 @@ import React from 'react'
 import slackIcon from "../images/slack-icon.png"
 import githubIcon from "../images/github-icon.png"
 import "../style.css"
-import { Link } from 'react-router-dom'
 
 export default function 
 Main() {
