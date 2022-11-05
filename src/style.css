@@ -1,7 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: 'Inter';
+  font-style: normal;
+}
+
 .section-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 0px 96px;
+    gap: 16px;
+    width: 50vw;
+}
+
+.form-container h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin: 0px;
+    }
+
+.supporting-text {
+    /* font-family: 'Inter';
+    font-style: normal; */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #475467;
+    /* margin: 0px; */
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    /* font-family: 'Inter'; */
+    /* font-style: normal; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;  
+}
+
+input, textarea {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+.form-control-checkbox label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475467;
+}
+
+.form-control input{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 14px;
+gap: 8px;
+background: #FFFFFF;
+border: 1px solid #D0D5DD;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+
+.input-row .form-control{
+    width: 48%;
+}
+
+#btn__submit {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px;
+gap: 8px;
+
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Base/White */
+
+color: #FFFFFF;
+
+/* Primary/600 */
+
+background: #1570EF;
+/* Primary/600 */
+
+border: 1px solid #1570EF;
+/* Shadow/xs */
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
 }
 
 #avatar_share {
@@ -108,6 +240,7 @@ img.social-icon {
 .main-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 0px 32px;
     gap: 20px;
