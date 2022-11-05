@@ -64,8 +64,6 @@ body {
 }
 
 label {
-    /* font-family: 'Inter'; */
-    /* font-style: normal; */
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -79,6 +77,28 @@ input, textarea {
     color: #667085;
 }
 
+.error-msg {
+    display: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f83f23;
+}
+
+input:focus:valid, textarea:focus:valid {
+    border: 1px solid #84caff;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
+}
+
+input:focus:invalid, textarea:focus:invalid {
+    border: 1px solid #f89687;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #ffd3cc;
+}
+
+input:focus:invalid .error-msg, textarea:focus:invalid .error-msg {
+    display: block;
+}
+
 .form-control-checkbox label {
     font-weight: 400;
     font-size: 16px;
@@ -88,18 +108,15 @@ input, textarea {
 
 .form-control input{
     box-sizing: border-box;
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 10px 14px;
-gap: 8px;
-background: #FFFFFF;
-border: 1px solid #D0D5DD;
-box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
 }
 
 .input-row .form-control{
@@ -108,32 +125,29 @@ border-radius: 8px;
 
 #btn__submit {
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 20px;
-gap: 8px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #1570EF;
+    border: 1px solid #1570EF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
 
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
+#btn__submit:hover {
+    background-color: #175cd3;
+}
 
-
-/* Base/White */
-
-color: #FFFFFF;
-
-/* Primary/600 */
-
-background: #1570EF;
-/* Primary/600 */
-
-border: 1px solid #1570EF;
-/* Shadow/xs */
-
-box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-border-radius: 8px;
+#btn__submit:focus {
+    background-color: #1570ef;
+    border: 1px solid rgba(81, 203, 238, 1);
+    box-shadow: 0 0 10px rgba(81, 203, 238, 1);
 }
 
 #avatar_share {
@@ -210,7 +224,7 @@ a {
     background: #D0D5DD;
     border: 1px solid #D0D5DD;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-border-radius: 8px;
+    border-radius: 8px;
 }
 
 #btn_twitter:focus, #btn__zuri:focus, #books:focus, #book__python:focus, #pitch:focus, #book__design:focus, #contact:focus {
@@ -218,7 +232,7 @@ border-radius: 8px;
     background: #EAECF0;
     border: 1px solid #98A2B3;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #EBE9FE;
-border-radius: 8px;
+    border-radius: 8px;
 }
 
 #slack {
@@ -293,5 +307,18 @@ img.social-icon {
     }
     #footer-text {
         align-self:flex-start;
+    }
+
+    .form-container {
+        width: 90vw;
+    }
+
+    .input-row{
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .input-row .form-control{
+        width: 100%;
     }
 }
