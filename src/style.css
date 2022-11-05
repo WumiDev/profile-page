@@ -272,6 +272,7 @@ img.social-icon {
     display: flex;
     justify-content: space-around;
     gap: 32px;
+    margin-top: 2%;
 }
 
 .horizontalLine {
