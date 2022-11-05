@@ -23,7 +23,6 @@ Main() {
             <a href="https://background.zuri.team" id="pitch">Background Check for Coders</a>
             <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
             <a href="/contact" id="contact">Contact Me</a>
-            
 
             <div className="socials-container">
                 <img src={slackIcon} className="social-icon" alt="slack icon"/>

@@ -181,7 +181,7 @@ a {
     color: #101828;
 }
 
-#btn__twitter, #btn__zuri, #books, #book__python, #pitch, #book__design {
+#btn__twitter, #btn__zuri, #books, #book__python, #pitch, #book__design, #contact {
     display: flex;
     justify-content: center;
     align-items: center;
